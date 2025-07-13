@@ -16,7 +16,7 @@ To improve DX, container is using volumes, to move updated files on your disk to
 # 🤔 How to install? (macOS/Windows)
 
 1. Clone the repository using command:
-    ```
+    ```git
     git clone https://github.com/m0lc14kk/docker-vanilla new-server
     ```
 2. If you'll use Windows: replace `docker-compose.yaml` file in root directory with `windows/docker-compose.yaml`. It'll change platform of Docker container.
