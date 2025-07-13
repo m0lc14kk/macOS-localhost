@@ -3,7 +3,9 @@
   "description": "A easy way to set-up a localhost server of Minecraft: Bedrock Edition vanilla software.",
   "version": "1.0.0",
   "private": false,
-  "scripts": {},
+  "scripts": {
+    "format": "pnpm exec prettier --write ."
+  },
   "keywords": [
     "minecraft bedrock server",
     "minecraft bedrock server vanilla",
@@ -13,5 +15,8 @@
   ],
   "author": "m0lc14kk",
   "license": "Apache-2.0",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }

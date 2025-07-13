@@ -3,6 +3,8 @@
 !/.vscode/extensions.json
 /.vs/
 
+/node_modules/
+
 minecraft/
 
 /**/*.DS_Store*
