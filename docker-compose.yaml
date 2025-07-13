@@ -1,0 +1,17 @@
+services:
+    bedrock-server:
+        platform: linux/amd64
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./minecraft:/minecraft
+            - ./minecraft/worlds:/minecraft/worlds
+            - ./minecraft/server.properties:/minecraft/server.properties
+            - ./minecraft/permissions.json:/minecraft/permissions.json
+            - ./minecraft/allowlist.json:/minecraft/allowlist.json
+        ports:
+            - "19132:19132/udp"
+        restart: unless-stopped
+        tty: true
+        stdin_open: true
