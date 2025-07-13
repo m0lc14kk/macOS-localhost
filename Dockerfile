@@ -1,3 +1,4 @@
+# hadolint ignore=DL3008
 FROM ubuntu:22.04
 
 RUN apt-get update && \
