@@ -7,9 +7,15 @@ services:
         volumes:
             - ./minecraft:/minecraft
             - ./minecraft/worlds:/minecraft/worlds
+            - ./minecraft/config:/minecraft/config
+            - ./minecraft/behavior_packs:/minecraft/behavior_packs
+            - ./minecraft/resource_packs:/minecraft/resource_packs
+            - ./minecraft/development_behavior_packs:/minecraft/development_behavior_packs
+            - ./minecraft/development_resource_packs:/minecraft/development_resource_packs
             - ./minecraft/server.properties:/minecraft/server.properties
             - ./minecraft/permissions.json:/minecraft/permissions.json
             - ./minecraft/allowlist.json:/minecraft/allowlist.json
+            - ./minecraft/profanity_filter.wlist:/minecraft/profanity_filter.wlist
         ports:
             - "19132:19132/udp"
         restart: unless-stopped
