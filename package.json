@@ -1,0 +1,17 @@
+{
+  "name": "macos-localhost",
+  "description": "A easy way to set-up a localhost server of Minecraft: Bedrock Edition vanilla software.",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {},
+  "keywords": [
+    "minecraft bedrock server",
+    "minecraft bedrock server vanilla",
+    "bedrock bds",
+    "minecraft bds",
+    "bds vanilla"
+  ],
+  "author": "m0lc14kk",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.13.1"
+}
