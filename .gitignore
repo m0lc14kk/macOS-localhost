@@ -4,3 +4,5 @@
 /.vs/
 
 minecraft/
+
+/**/*.DS_Store*
