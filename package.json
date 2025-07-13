@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "format": "pnpm exec prettier --write ."
+    "format": "pnpm exec prettier --write .",
+    "prepare": "husky"
   },
   "keywords": [
     "minecraft bedrock server",
@@ -17,6 +18,7 @@
   "license": "Apache-2.0",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "^3.6.2"
   }
 }
