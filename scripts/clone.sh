@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ..
+
 [ -d ".github" ] && rm -rf .github
 [ -d ".husky" ] && rm -rf .husky
 [ -d "node_modules" ] && rm -rf node_modules
@@ -9,4 +11,5 @@
 [ -f "package.json" ] && rm package.json
 [ -f "pnpm-lock.yaml" ] && rm pnpm-lock.yaml
 
+mkdir minecraft
 echo "Server's files has been cleaned up."
