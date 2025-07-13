@@ -1,13 +1,13 @@
 ![Banner](/.github/assets/banner.png)
 
-<center>
+<p align="center">
 
 ![Badge](https://img.shields.io/badge/Software-BDS-%23ffaa00?style=for-the-badge)
 ![Badge](https://img.shields.io/badge/Tests-PASS-%2355ff55?style=for-the-badge)
 ![Badge](https://img.shields.io/badge/Using-Docker-%23ff55ff?style=for-the-badge)
 ![Badge](https://img.shields.io/badge/MC%20Versions-1.16.x%5E-%235555ff?style=for-the-badge)
 
-</center>
+</p>
 
 Docker Vanilla is a repository, that makes process of configuring new [Bedrock Dedicated Server](https://www.minecraft.net/en-us/download/server/bedrock) much faster for developers. It's mainly scoped for macOS users, who are forced to use [Docker](https://www.docker.com/) to run localhost on their machine, but it supports also Windows version.
 
